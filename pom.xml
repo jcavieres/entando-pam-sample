@@ -576,9 +576,19 @@
                     <webAppSourceDirectory>${basedir}/src/main/webapp</webAppSourceDirectory>
                     <webApp>
                         <defaultsDescriptor>${basedir}/src/main/config/webdefault.xml</defaultsDescriptor>
-                        <contextPath>/${project.artifactId}</contextPath>
+                        <contextPath>/entando</contextPath>
                         <jettyEnvXml>${project.build.directory}/jetty/jetty-env.xml</jettyEnvXml>
                     </webApp>
+                    <contextHandlers>
+                      <contextHandler implementation="org.eclipse.jetty.maven.plugin.JettyWebAppContext">
+                          <resourceBases>${basedir}/src/main/appbuilder</resourceBases>
+                          <contextPath>/appbuilder</contextPath>
+                      </contextHandler>
+                      <contextHandler implementation="org.eclipse.jetty.maven.plugin.JettyWebAppContext">
+                          <resourceBases>${basedir}/src/main/welcome</resourceBases>
+                          <contextPath></contextPath>
+                      </contextHandler>
+                    </contextHandlers>
                 </configuration>
                 <dependencies>
                     <dependency>
