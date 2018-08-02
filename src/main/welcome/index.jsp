@@ -5,7 +5,7 @@
     <title>Quickstart</title>
     <link rel="shortcut icon" href="favicon.png">
     <link rel="stylesheet" href="static/css/welcome.css">
-    <link rel="stylesheet" href="static/css/qlato.css">
+    <link rel="stylesheet" href="static/css/lato.css">
 
 </head>
 <body id="background-full-landing">
