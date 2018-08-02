@@ -1,0 +1,105 @@
+body {
+    font-family: 'Lato', sans-serif; 
+}
+
+a {
+    color: #23a8e0;
+    text-decoration: none;
+}
+
+
+#background-full-landing {
+    background: url(../img/bg_landing.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.entando-logo {
+    background: url(../img/entando-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 20px;
+    height: 40px;
+}
+
+.center-pos {
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    position: absolute;
+    height: 50%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.container-welcome-links .btn-link {
+    height: 28px;
+    width: 207px;
+    line-height: 28px;
+    margin: 0 34px;
+    background: #00B9F7;
+    border-color: #00B9F7;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+}
+
+.btn-link:hover  {
+    color: #00B9F7;
+    background: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+.container-welcome-links {
+    justify-content: center;
+    height: 100px;
+    space-between: unset;
+}
+
+.container-welcome {
+    font-size: 36px;
+    font-weight: 600;
+    justify-content: center;
+    text-transform: uppercase;
+    height: 50px;
+    margin: 0 0 7px;
+    display: flex;
+    align-items: center;
+}
+
+.container-welcome-subs {
+    font-size: 13px;
+    justify-content: center;
+    margin: 0px 0 6em;
+}
