@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', sans-serif; 
+    font-family: LatoWebLight;
 }
 
 a {
@@ -21,8 +21,9 @@ a {
     background: url(../img/entando-logo.svg);
     background-repeat: no-repeat;
     background-position: center center;
-    margin: 20px;
-    height: 40px;
+    background-size: 200px 35px;
+    margin: 0px;
+    height: 65px;
 }
 
 .center-pos {
@@ -39,21 +40,21 @@ a {
 }
 
 .container-welcome-links .btn-link {
-    height: 28px;
-    width: 207px;
-    line-height: 28px;
+    height: 29px;
+    width: 267px;
+    line-height: 29px;
     margin: 0 34px;
     background: #00B9F7;
     border-color: #00B9F7;
     border-radius: 3px;
     color: #fff;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
     transition: all 0.4s ease;
 }
 
-.btn-link:hover  {
+.container-welcome-links .btn-link:hover  {
     color: #00B9F7;
     background: #fff;
 }
@@ -78,6 +79,7 @@ a {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+    font-family: 'LatoWeb';
 }
 
 
@@ -88,18 +90,18 @@ a {
 }
 
 .container-welcome {
-    font-size: 36px;
+    font-size: 39px;
     font-weight: 600;
     justify-content: center;
     text-transform: uppercase;
-    height: 50px;
-    margin: 0 0 7px;
+    margin: 42px 0 14px 0;
     display: flex;
     align-items: center;
+    font-family: 'LatoWeb';
 }
 
 .container-welcome-subs {
-    font-size: 13px;
+    font-size: 16px;
     justify-content: center;
     margin: 0px 0 6em;
 }
