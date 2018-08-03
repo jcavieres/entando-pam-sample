@@ -7,7 +7,6 @@ a {
     text-decoration: none;
 }
 
-
 #background-full-landing {
     background: url(../img/bg_landing.jpg);
     background-repeat: no-repeat;
@@ -81,7 +80,6 @@ a {
     border-radius: 4px;
     font-family: 'LatoWeb';
 }
-
 
 .container-welcome-links {
     justify-content: center;
